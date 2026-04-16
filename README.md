@@ -43,6 +43,33 @@ After applying the predicted biases to the original forecasts (`Corrected Foreca
 *   **Terrain Dependence**: The current dataset lacks specific terrain information, preventing quantitative analysis of terrain's impact on bias. Integrating high-resolution terrain data was identified as a critical next step.
 *   **Temporal Dependence**: Clear hourly and monthly patterns were observed in both wind speed and direction biases. Quantitatively, the average hourly wind speed bias ranged from approximately -0.18 m/s to 0.24 m/s, and average hourly wind direction bias ranged from about -10.15 degrees to 5.11 degrees. Monthly average wind speed bias varied from -0.31 m/s to 0.03 m/s, and monthly average wind direction bias ranged from -7.26 degrees to 3.58 degrees. These statistics demonstrate the significant temporal influence on forecast bias.
 
+## Visualizations
+
+### Hourly Bias Dependence
+
+![Hourly Wind Speed Bias](figures/hourly_bias_dependence.png)
+
+### Monthly Bias Dependence
+
+![Monthly Wind Speed Bias](figures/monthly_bias_dependence.png)
+
+### Daily MAE Comparison (Wind Speed)
+
+![Daily MAE Wind Speed](figures/daily_mae_speed.png)
+
+### Daily MAE Comparison (Wind Direction)
+
+![Daily MAE Wind Direction](figures/daily_mae_direction.png)
+
+### Sample Wind Speed Forecast Comparison
+
+![Sample Wind Speed Comparison](figures/wind_speed_comparison_sample.png)
+
+### Sample Wind Direction Forecast Comparison
+
+![Sample Wind Direction Comparison](figures/wind_direction_comparison_sample.png)
+
+
 ## Operational Deployment Considerations (for autonomous drones)
 
 Deploying such a model on an autonomous drone would require:
